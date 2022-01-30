@@ -42,7 +42,7 @@ nname=re.compile(r'<name>(.*)</name>')
 
 # 遍历所有的XML文件
 for xml_fname in xml_fname_list:
-	xml_file = open(src+xml_fname, 'r', encoding="utf-8")
+	xml_file = open(path_voc + xml_fname, 'r', encoding="utf-8")
 	xml_file_content = xml_file.read()
 	xml_file.close()
 	
